@@ -7,7 +7,7 @@
 Проект использует следующие основные зависимости:
 
 - [React](https://reactjs.org/) — библиотека для построения интерфейса
-- [React Router v6](https://reactrouter.com/en/main) — маршрутизация
+- [React Router v7](https://reactrouter.com/en/main) — маршрутизация
 - [Material UI (MUI)](https://mui.com/) — UI-компоненты
 - [Axios](https://axios-http.com/) — HTTP-клиент для работы с API GitHub
 - [GitHub API v3](https://docs.github.com/en/rest) — получение данных профиля и репозиториев
@@ -16,7 +16,7 @@
 
 # 1. Клонируйте репозиторий
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Samirkosh/oAuth.git
 
 # 2. Установите зависимости
 
@@ -27,7 +27,9 @@ npm install
 В корне проекта создайте файл .env и добавьте в него следующие строки:
 
 VITE_GITHUB_CLIENT_ID=your_github_client_id
+
 VITE_GITHUB_CLIENT_SECRET=your_github_client_secret
+
 VITE_GITHUB_REDIRECT_URI=http://localhost:5174/callback
 
 Замените your_github_client_id и your_github_client_secret на значения, полученные в настройках вашего GitHub OAuth приложения.

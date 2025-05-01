@@ -43,7 +43,7 @@ VITE_GITHUB_REDIRECT_URI=http://localhost:5173/callback
 
 - Нажмите New OAuth App.
 
-- Укажите название, URL и callback URL, который будет соответствовать http://localhost:5174/callback (или тому URL, который вы хотите использовать).
+- Укажите название, URL и callback URL, который будет соответствовать http://localhost:5173/callback (или тому URL, который вы хотите использовать).
 
 - После создания вы получите client_id и client_secret, которые нужно добавить в .env.
 

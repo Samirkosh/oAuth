@@ -33,6 +33,7 @@ VITE_GITHUB_CLIENT_SECRET=your_github_client_secret
 VITE_GITHUB_REDIRECT_URI=http://localhost:5173/callback
 
 Замените your_github_client_id и your_github_client_secret на значения, полученные в настройках вашего GitHub OAuth приложения.
+Важно, до и после знака = не ставить пробелы
 
 # 4. Как получить CLIENT_ID и CLIENT_SECRET
 

@@ -23,7 +23,7 @@ export const GitHubLogin = () => {
     setTimeout(() => {
       const loginUrl = `https://github.com/login/oauth/authorize?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&scope=user%20repo`;
       window.location.href = loginUrl;
-    }, 1000); // для демонстрации анимации загрузки
+    }, 1000);
   };
 
   return (

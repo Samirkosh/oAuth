@@ -47,6 +47,17 @@ VITE_GITHUB_REDIRECT_URI=http://localhost:5173/callback
 
 - После создания вы получите client_id и client_secret, которые нужно добавить в .env.
 
+# 5 Установите зависимости для файла server
+
+- открываем терминал git bash вводим следующие команды
+
+- cd server
+
+- npm init -y
+
+- npm install express axios cors
+
 # 5. Запуск проекта
 
+открываем новый терминал пишем:
 npm run dev

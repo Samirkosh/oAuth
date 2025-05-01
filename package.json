@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -16,6 +17,9 @@
     "@mui/lab": "^7.0.0-beta.11",
     "@mui/material": "^7.0.2",
     "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^7.5.2"
@@ -34,5 +38,13 @@
   "main": "vite.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samirkosh/oAuth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Samirkosh/oAuth/issues"
+  },
+  "homepage": "https://github.com/Samirkosh/oAuth#readme"
 }

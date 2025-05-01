@@ -55,7 +55,7 @@ VITE_GITHUB_REDIRECT_URI=http://localhost:5173/callback
 
 - npm init -y
 
-- npm install express axios cors
+- npm install express axios cors dotenv
 
 - node index.js
 

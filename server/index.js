@@ -3,12 +3,13 @@ const axios = require("axios");
 const cors = require("cors");
 const app = express();
 const PORT = 4000;
+require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
 
-const CLIENT_ID = import.meta.env.VITE_GITHUB_CLIENT_ID;
-const CLIENT_SECRET = import.meta.env.VITE_GITHUB_CLIENT_SECRET;
+const CLIENT_ID = process.env.VITE_GITHUB_CLIENT_ID;
+const CLIENT_SECRET = process.env.VITE_GITHUB_CLIENT_SECRET;
 
 app.post("/auth/github", async (req, res) => {
   const { code } = req.body;
